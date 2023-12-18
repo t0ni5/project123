@@ -1,12 +1,12 @@
 {
   "header": {
-    "mainpage": "Главная ",
-    "robberspage": "Грабители ",
+    "mainpage": " Главная ",
+    "robberspage": " Грабители ",
     "devpage": " О разработчиках ",
     "searchword": " Введите имя"
   },
   "footer": {
-    "mainpage": " Главная",
+    "mainpage": "Главная",
     "robberspage": "Грабители",
     "robberday": " Грабитель дня"
   },
