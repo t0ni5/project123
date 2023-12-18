@@ -5,7 +5,7 @@ import LineHeader from "./LineHeader";
 import PersonOfTheDay from "./PersonOfTheDay";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import { HashLink as HashLink } from "react-router-hash-link";
 
 function Footer() {
   const { t } = useTranslation();

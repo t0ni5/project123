@@ -5,7 +5,7 @@ import lupa from "./assets/lupa.png";
 import Developer from "./Developer";
 import MainPage from "./MainPage";
 import { useTranslation } from "react-i18next";
-import { HashLink } from "react-router-hash-link";
+import { HashLink as HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 
 function NavbarComp() {
