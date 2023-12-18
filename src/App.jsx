@@ -11,7 +11,7 @@ import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 function App() {
   return (
     <>
-      <HashRouter>
+      <HashRouter basename="/project123/">
         <Routes>
           <Route index element={<MainPage />} />
           <Route path="/home" element={<MainPage />} />
