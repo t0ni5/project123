@@ -22,9 +22,15 @@ function NavbarComp() {
             style={{ maxHeight: "200px" }}
             navbarScroll
           >
-            <Link to="/home">{t("header.mainpage")}</Link>
-            <Link to="/robbers">{t("header.robberspage")}</Link>
-            <Link to="/#devs">{t("header.devpage")}</Link>
+            <Link className="margin-right" to="/home">
+              {t("header.mainpage")}
+            </Link>
+            <Link className="margin-right" to="/robbers">
+              {t("header.robberspage")}
+            </Link>
+            <Link className="margin-right" to="/#devs">
+              {t("header.devpage")}
+            </Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand href="#scrollspySearch">

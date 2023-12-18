@@ -19,15 +19,9 @@ function Footer() {
               style={{ maxHeight: "200px" }}
               navbarScroll
             >
-              <Link className="mr-3" to="/home">
-                {t("footer.mainpage")}
-              </Link>
-              <Link className="mr-3" to="/robbers">
-                {t("footer.robberspage")}
-              </Link>
-              <Link className="mr-3" to="/#daily_name">
-                {t("footer.robberday")}
-              </Link>
+              <Link to="/home">{t("footer.mainpage")}</Link>
+              <Link to="/robbers">{t("footer.robberspage")}</Link>
+              <Link to="/#daily_name">{t("footer.robberday")}</Link>
             </Nav>
           </Navbar.Collapse>
           {/* <Navbar.Brand href="#">
