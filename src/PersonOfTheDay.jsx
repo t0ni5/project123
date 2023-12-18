@@ -10,22 +10,22 @@ function PersonOfTheDay({ name, info, portrait, index }) {
   let pathname;
   switch (index) {
     case 0:
-      pathname = "/James";
+      pathname = "project123/James";
       break;
     case 1:
-      pathname = "/Cassidy";
+      pathname = "project123/Cassidy";
       break;
     case 2:
-      pathname = "/Dillinger";
+      pathname = "project123/Dillinger";
       break;
     case 3:
-      pathname = "/Gillis";
+      pathname = "project123/Gillis";
       break;
     case 4:
-      pathname = "/Kid";
+      pathname = "project123/Kid";
       break;
     default:
-      pathname = "/home";
+      pathname = "project123/home";
   }
   return (
     <>
