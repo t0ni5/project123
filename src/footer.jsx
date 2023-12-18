@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import LineHeader from "./LineHeader";
 import PersonOfTheDay from "./PersonOfTheDay";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 function Footer() {
   const { t } = useTranslation();
