@@ -7,6 +7,7 @@ import ListOfRob from "./ListOfRob";
 import Robber from "./Robber";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToAnchor from "./Components/ScrollToAnchor";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/Gillis" element={<Robber rob_index="3" />} />
           <Route path="/Kid" element={<Robber rob_index="4" />} />
         </Routes>
+        <ScrollToAnchor />
       </BrowserRouter>
     </>
   );
