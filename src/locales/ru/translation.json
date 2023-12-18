@@ -1,0 +1,23 @@
+{
+    "header": {
+        "mainpage": "Главная",
+        "robberspage": "Грабители",
+        "devpage": "О разработчиках",
+        "searchword": "Введите имя"
+    },
+    "footer": {
+        "mainpage":"Главная",
+        "robberspage":"Грабители",
+        "robberday":"Грабитель дня"
+    },
+    "read_button":{
+        "read_more":"Читать"
+    },
+    "captions":{
+        "devs": "Разработчки",
+        "bio": "Биография",
+        "photo": "Фото",
+        "more": "Больше информации",
+        "map": "Место на карте"
+    }
+}

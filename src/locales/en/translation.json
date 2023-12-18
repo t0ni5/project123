@@ -1,0 +1,23 @@
+{
+    "header": {
+        "mainpage": "Home",
+        "robberspage": "Robbers",
+        "devpage": "Developers",
+        "searchword": "Enter name"
+    },
+    "footer": {
+        "mainpage":"Home",
+        "robberspage":"Robbers",
+        "robberday":"Robber of the day"
+    },
+    "read_button":{
+        "read_more":"Read"
+    },
+    "captions":{
+        "devs": "Developers",
+        "bio": "Biography",
+        "photo":"Photos",
+        "more": "More information",
+        "map": "Place on the map"
+    }
+}
