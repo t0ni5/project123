@@ -5,7 +5,7 @@ import lupa from "./assets/lupa.png";
 import Developer from "./Developer";
 import MainPage from "./MainPage";
 import { useTranslation } from "react-i18next";
-
+import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 
 function NavbarComp() {
@@ -25,7 +25,7 @@ function NavbarComp() {
           >
             <Link to="/home">{t("header.mainpage")}</Link>
             <Link to="/robbers">{t("header.robberspage")}</Link>
-            <Link to="/#devs">{t("header.devpage")}</Link>
+            <HashLink to="/#devs">{t("header.devpage")}</HashLink>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand href="#scrollspySearch">

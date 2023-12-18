@@ -5,6 +5,7 @@ import LineHeader from "./LineHeader";
 import PersonOfTheDay from "./PersonOfTheDay";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function Footer() {
   const { t } = useTranslation();
@@ -21,7 +22,7 @@ function Footer() {
             >
               <Link to="/home">{t("footer.mainpage")}</Link>
               <Link to="/robbers">{t("footer.robberspage")}</Link>
-              <Link to="/#daily_name">{t("footer.robberday")}</Link>
+              <HashLink to="/#daily_name">{t("footer.robberday")}</HashLink>
             </Nav>
           </Navbar.Collapse>
           {/* <Navbar.Brand href="#">
