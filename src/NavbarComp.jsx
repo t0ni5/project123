@@ -5,6 +5,7 @@ import lupa from "./assets/lupa.png";
 import Developer from "./Developer";
 import MainPage from "./MainPage";
 import { useTranslation } from "react-i18next";
+import { Outlet } from "react-router-dom";
 
 import { Link } from "react-router-dom";
 
@@ -55,6 +56,7 @@ function NavbarComp() {
           </button>
         </div>
       </Container>
+      <Outlet />
     </Navbar>
   );
 }
