@@ -1,4 +1,4 @@
-import policeLine from './assets/Police_Line.png'
+import policeLine from './assets/Police_line.png'
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

@@ -6,12 +6,13 @@ import ListOfRob from "./ListOfRob";
 
 import Robber from "./Robber";
 
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <HashRouter basename="/project123/">
+      {console.log("1")}
+      <BrowserRouter>
         <Routes>
           <Route index element={<MainPage />} />
           <Route path="/home" element={<MainPage />} />
@@ -22,7 +23,7 @@ function App() {
           <Route path="/Gillis" element={<Robber rob_index="3" />} />
           <Route path="/Kid" element={<Robber rob_index="4" />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }

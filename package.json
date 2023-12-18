@@ -2,16 +2,16 @@
   "name": "robbers-react-app",
   "private": true,
   "version": "0.0.0",
-  
+  "homepage": "https://Alexartess.github.io/robbers-react-app",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "vite preview"
   },
   "dependencies": {
     "@fontawesome/fontawesome-free": "^5.15.4",
