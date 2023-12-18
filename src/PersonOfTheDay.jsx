@@ -10,19 +10,19 @@ function PersonOfTheDay({ name, info, portrait, index }) {
   let pathname;
   switch (index) {
     case 0:
-      pathname = "/robbers-react-app/James";
+      pathname = "/project123/James";
       break;
     case 1:
-      pathname = "/robbers-react-app/Cassidy";
+      pathname = "/project123/Cassidy";
       break;
     case 2:
-      pathname = "/robbers-react-app/Dillinger";
+      pathname = "/project123/Dillinger";
       break;
     case 3:
-      pathname = "/robbers-react-app/Gillis";
+      pathname = "/project123/Gillis";
       break;
     case 4:
-      pathname = "/robbers-react-app/Kid";
+      pathname = "/project123/Kid";
       break;
     default:
       pathname = "/home";

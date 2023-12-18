@@ -12,7 +12,7 @@ import ScrollToAnchor from "./Components/ScrollToAnchor";
 function App() {
   return (
     <>
-      <BrowserRouter basename="/robbers-react-app">
+      <BrowserRouter basename="/project123">
         <Routes>
           <Route index element={<MainPage />} />
           <Route path="/home" element={<MainPage />} />
