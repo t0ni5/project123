@@ -11,7 +11,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      {console.log("1")}
       <BrowserRouter basename="/project123">
         <Routes>
           <Route index element={<MainPage />} />

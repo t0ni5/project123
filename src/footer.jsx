@@ -21,7 +21,7 @@ function Footer() {
             >
               <Link to="/home">{t("footer.mainpage")}</Link>
               <Link to="/robbers">{t("footer.robberspage")}</Link>
-              <Link href="/#daily_name">{t("footer.robberday")}</Link>
+              <Link to="/#daily_name">{t("footer.robberday")}</Link>
             </Nav>
           </Navbar.Collapse>
           {/* <Navbar.Brand href="#">
