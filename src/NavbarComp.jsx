@@ -56,7 +56,6 @@ function NavbarComp() {
           </button>
         </div>
       </Container>
-      <Outlet />
     </Navbar>
   );
 }
