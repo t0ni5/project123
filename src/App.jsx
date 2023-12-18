@@ -22,7 +22,6 @@ function App() {
           <Route path="/Gillis" element={<Robber rob_index="3" />} />
           <Route path="/Kid" element={<Robber rob_index="4" />} />
         </Routes>
-        <ScrollToAnchor />
       </BrowserRouter>
     </>
   );
