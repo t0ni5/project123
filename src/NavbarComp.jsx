@@ -24,7 +24,7 @@ function NavbarComp() {
             style={{ maxHeight: "200px" }}
             navbarScroll
           >
-            <Nav.Link href="/home">{t("header.mainpage")}</Nav.Link>
+            <Nav.Link href="/project123/home">{t("header.mainpage")}</Nav.Link>
             <Nav.Link href="/robbers">{t("header.robberspage")}</Nav.Link>
             <Nav.Link href="/#devs">{t("header.devpage")}</Nav.Link>
           </Nav>
@@ -56,6 +56,7 @@ function NavbarComp() {
           </button>
         </div>
       </Container>
+      <Outlet />
     </Navbar>
   );
 }
