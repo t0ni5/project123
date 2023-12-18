@@ -5,7 +5,6 @@ import LineHeader from "./LineHeader";
 import PersonOfTheDay from "./PersonOfTheDay";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { HashLink as HashLink } from "react-router-hash-link";
 
 function Footer() {
   const { t } = useTranslation();
@@ -16,13 +15,19 @@ function Footer() {
         <Container fluid>
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="me-auto my-2 my-lg-0 center-footer"
+              className="me-auto my-2 my-lg-0 center-footer "
               style={{ maxHeight: "200px" }}
               navbarScroll
             >
-              <Link to="/home">{t("footer.mainpage")}</Link>
-              <Link to="/robbers">{t("footer.robberspage")}</Link>
-              <HashLink to="/#daily_name">{t("footer.robberday")}</HashLink>
+              <Link className="mr-3" to="/home">
+                {t("footer.mainpage")}
+              </Link>
+              <Link className="mr-3" to="/robbers">
+                {t("footer.robberspage")}
+              </Link>
+              <Link className="mr-3" to="/#daily_name">
+                {t("footer.robberday")}
+              </Link>
             </Nav>
           </Navbar.Collapse>
           {/* <Navbar.Brand href="#">
