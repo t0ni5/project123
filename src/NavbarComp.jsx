@@ -24,8 +24,8 @@ function NavbarComp() {
             navbarScroll
           >
             <Link to="/home">{t("header.mainpage")}</Link>
-            <Nav.Link href="/robbers">{t("header.robberspage")}</Nav.Link>
-            <Nav.Link href="/#devs">{t("header.devpage")}</Nav.Link>
+            <Link to="/robbers">{t("header.robberspage")}</Link>
+            <Link to="/#devs">{t("header.devpage")}</Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand href="#scrollspySearch">
