@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       {console.log("1")}
-      <BrowserRouter>
+      <BrowserRouter basename="/project123">
         <Routes>
           <Route index element={<MainPage />} />
           <Route path="/home" element={<MainPage />} />
